@@ -1,0 +1,64 @@
+name: udm_application
+description: Application mobile pour l'Université des Mascareignes
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # ── Firebase ────────────────────────────────────────────────────────────────
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.2
+
+  # ── UI & Design ─────────────────────────────────────────────────────────────
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  syncfusion_flutter_pdfviewer: ^33.2.3
+  webview_flutter: ^4.8.0
+
+  # ── Utilitaires & Gestion d'état ────────────────────────────────────────────
+  provider: ^6.1.2
+  intl: ^0.20.2
+  http: ^1.2.2
+  url_launcher: ^6.3.0
+  path_provider: ^2.1.4
+
+  # ── Gestion de fichiers ──────────────────────────────────────────────────────
+  image_picker: ^1.1.2
+  file_picker: ^8.1.4
+  open_file: ^3.5.10
+
+  # ── Divers ───────────────────────────────────────────────────────────────────
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/UDM.JPG
+    - assets/images/logo_udm.png
+    - assets/images/faculty_commerce.jpg
+    - assets/images/faculty_engineering.jpg
+    - assets/images/faculty_ict.jpg
+
+# Configuration de l'icône de l'application
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/new_logo.png"
+  adaptive_icon_background: "#003087"
+  adaptive_icon_foreground: "assets/images/new_logo.png"

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "185477126178",
+    "project_id": "udm-app-ecd4f",
+    "storage_bucket": "udm-app-ecd4f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185477126178:android:5ca4933d13257c2366d27b",
+        "android_client_info": {
+          "package_name": "com.example.udm_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvBWaOX6usTC2nv1C1kHc5seitoNMOtK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185477126178:android:69db17318e754e2766d27b",
+        "android_client_info": {
+          "package_name": "com.example.udm_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvBWaOX6usTC2nv1C1kHc5seitoNMOtK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
